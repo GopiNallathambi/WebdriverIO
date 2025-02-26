@@ -8,7 +8,7 @@ describe('Demo Test', function () {
         await $('[name="btnm"]').click
         browser.pause(30000)
 
-        browser.pause(3000)
+        browser.pause(4000)
         browser.keys('Enter')
 
     })
