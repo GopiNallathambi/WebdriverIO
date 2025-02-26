@@ -1,0 +1,19 @@
+{
+
+    "compilerOptions": {
+
+        "baseUrl": ".",
+
+        "paths": {
+
+            "@wdio/globals/*": ["node_modules/@wdio/globals/*"],
+
+            "@wdio/sync/*": ["node_modules/@wdio/sync/*"]
+
+        },
+
+        "types": ["node", "@wdio/globals", "@wdio/mocha-framework"]
+
+    }
+
+}
